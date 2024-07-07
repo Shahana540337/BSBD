@@ -1,0 +1,356 @@
+    /* -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px; */
+
+    /* font-family: "Gloock", serif; */
+    /* font-family: "Dosis", sans-serif; */
+    /* font-family: "Raleway", sans-serif; */
+    /* font-family: "Open Sans", sans-serif; */
+    /* font-family: "Tiro Bangla", serif; */
+
+
+    /* ------- COMMON CSS ------- */
+p{
+    margin-bottom: 0 !important;
+}
+.section_title{
+    text-align: center;
+}
+.section_title h1{
+    display: inline;
+    color: #ffffff;
+    background: #40b6f8;
+    border-radius: 5px;
+    font-family: "Open Sans", sans-serif;
+    padding: 0 20px;
+}
+.button{
+    font-size: 18px;
+    color: #ffffff;
+    background: #40b6f8;
+    border: 1px solid #00a2ff;
+}
+.button:hover{
+    color: #40b6f8;
+    background: #ffffff;
+    border: 1px solid #00a2ff;
+}
+
+    /* ------- Top Header ------- */
+.top_header{
+    background: #40b6f8;
+    padding: 5px;
+}
+.top_header .top_header_info{
+    display: flex;
+    justify-content: space-evenly;
+}
+.top_header .top_header_info .top_head{
+    display: flex;
+    align-items: center;
+}
+.top_header .top_header_info .top_head i, .top_head p{
+    font-size: 14px;
+    color: #ffffff;
+}
+.top_header .top_header_info .top_head i{
+    margin-right: 10px ;
+}
+.top_header .top_header_icon{
+    text-align: end;
+}
+.top_header .top_header_icon i{
+    margin: 0 5px;
+    color: #ffffff;
+}
+
+    /* ------- Top Header ------- */
+header {
+    background: #defbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header .logo img{
+    max-width: 110px;
+}
+header .logo_title{
+    width: 33.5%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+header .logo_title h1,h3{
+    color: #00a2ff;
+}
+header .logo_title h1{
+    font-family: "Dosis", sans-serif;
+    font-weight: 700;
+}
+header .logo_title h3{
+    font-family: "Tiro Bangla", serif;
+    font-weight: 800;
+    font-style: italic;
+}
+
+    /* ------- Navbar ------- */
+
+.navbar {
+    --bs-navbar-padding-y: 0;
+}
+.navbar-nav{
+    --bs-nav-link-padding-y: 1rem;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding: 15px 15px;
+}
+.navbar_section{
+    width: 100%;
+    background: #f3feff;
+    box-shadow: 0px 3px 6px -5px #000000;
+    border-top: 1px solid #ffffff;
+}
+.navbar_section .logo_for_scroll{
+    margin-left: 70px ;
+}
+.navbar_section .logo_for_scroll img{
+    width: 60px;
+}
+.navbar_section .navbar li a{
+    color: #00a2ff;
+    font-size: 15px;
+}
+.navbar_section .navbar li a:focus, li a.active{
+    color: #003f64 !important;
+}
+.navbar_section .navbar li a:hover{
+    background: #eef9fd;
+}
+.navbar_section .navbar .dropdown-menu .dropdown-item{
+    color: #40b6f8;
+    text-shadow: none;
+}
+.navbar_section .navbar .dropdown-menu .dropdown-item:hover{
+background: #f4f4f4;
+}
+
+    /* ------- Banner ------- */
+.banner_section{
+    padding: 50px 0;
+    background: #ffffff;
+}
+.banner_section .banner_info .banner_title h1{
+    font-weight: 800;
+}
+.banner_section .banner_info .banner_title .welcom_part{
+    color: #003f64;
+    font-family: "Raleway", serif;
+    font-size: 40px;
+    margin-bottom: 0 !important;
+}
+.banner_section .banner_info .banner_title .site_name{
+    color: #40b6f8;
+    font-family: "Gloock", serif;
+    font-size: 50px;
+}
+.banner_section .banner_info .banner_subtitle{
+    color: #ff9900;
+    font-family: "raleway", serif;
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 20px;
+}
+.banner_section .banner_info .banner_description{
+    color: #000000;
+    font-size: 15px;
+    text-align: justify;
+    margin: 20px 0 30px 0 !important;
+}
+.banner_section .banner_info .banner_description strong{
+    color: #00a2ff;
+    text-decoration: underline;
+}
+.banner_section .banner_image iframe, img{
+    height: 100%;
+    width: 100%;
+}
+
+/* ------- Courses ------- */
+.courses_section{
+    padding: 50px;
+    background: #f7feff;
+}
+.courses_section .courses_part{
+    padding: 50px;
+    justify-content: space-between;
+}
+.courses_section .courses_item{
+    padding: 20px;
+}
+.courses_section .courses_part .card_info a{
+    text-decoration: none;
+    color: #970000;
+}
+
+/* ------- Services ------- */
+.services_section{
+    padding: 50px;
+}
+.services_section .services_part{
+    padding: 50px ;
+    justify-content: space-between;
+}
+.services_section .services_part .services_item {
+    border: 1px solid #000000;
+    border-radius: 5px;
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+.services_section .services_part .services_item img{
+    border-radius: 5px;
+    height: 100%;
+    width: 100%;
+}
+.services_section .services_part .services_item .service_overlay{
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 0;
+    width: 100%;
+    transition: .4s;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.services_section .services_part .services_item:hover .service_overlay{
+    background: rgba(0, 0, 0, 70%);
+    height: 100%;
+}
+.services_section .services_part .services_item .service_overlay a{
+    text-decoration: none;
+}
+.services_section .services_part .services_item .service_overlay h1{
+    font-size: 40px;
+    color: #ffffff;
+    opacity: 0;
+    transition: .6s;
+}
+.services_section .services_part .services_item:hover .service_overlay h1{
+    text-align: center;
+    opacity: 100%;
+}
+
+/* ------- Countact us ------- */
+.contact_section{
+    padding: 50px;
+    background: #eef9fd;
+}
+.contact_section .contact_title {
+    text-align: center;
+    margin-bottom: 30px;
+}
+.contact_section .contact_title h1{
+    font-family: "gloock";
+    font-size: 30px;
+    color: #40b6f8;
+    background: #ffffff;
+    display: inline;
+    padding: 5px 25px;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px -0.98px #000000;
+}
+.contact_section .contact_form{
+    padding: 0 30px;
+}
+.contact_section .contact_form label{
+    margin-left: 15px;
+    font-weight: bold;
+}
+.contact_section .contact_form .form-control{
+    box-shadow: 0 2px 0 .25px #40b6f8;
+}
+/* ------- Countact us ------- */
+footer{
+    background: #40b6f8;
+    padding: 50px 0;
+}
+footer .footer{
+    display: flex;
+    justify-content: space-around;
+}
+footer .footer_title{
+    color: #003f64;
+    font-family: "raleway";
+    margin-bottom: 0;
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 10px !important;
+}
+ footer .footer_info img{
+    height: 100px;
+    max-width: 100px;
+    margin-bottom: 30px;
+ }
+footer .footer_info .footer_description{
+    color: #ffffff;
+    font-size: 18px;
+    margin-bottom: 0;
+}
+footer .footer_page_links ul{
+    list-style: none;
+    padding-left: 20px;
+}
+footer .footer_page_links ul li, .footer_service_links ul li{
+    color: #ffffff;
+    margin: 10px 0;
+}
+footer .footer_page_links ul a, .footer_service_links ul a{
+    text-decoration: none;
+    transition: .5s;
+}
+footer .footer_page_links ul a:hover, .footer_service_links ul a:hover{   
+    text-decoration: underline;
+}
+footer .footer_service_links ul{
+    padding-left: 20px;
+}
+footer .footer_icon a i{
+    color: #ffffff;
+    font-size: 25px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 15px 5px 5px 5px;
+    transition: .4s;
+}
+footer .footer_icon a:hover i{
+    color: #00a2ff;
+    background: #ffffff;
+}
+footer .footer_icon .footer_icon_bottom_section{
+margin-top: 10px;
+margin-left: 10px;
+}
+footer .footer_icon .footer_contact{
+    display: flex;
+    align-items: center;
+}
+footer .footer_icon .footer_subtitle{
+    font-size: 14px;
+}
+
+/* ------- Countact us ------- */
+.copyright_section{
+    background: #00a2ff;
+    padding: 10px;
+    text-align: center;
+}
+.copyright_section p{
+    color: #ffffff;
+}

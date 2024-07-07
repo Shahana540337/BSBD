@@ -1,0 +1,229 @@
+@media ( max-width:426px ) {
+
+    .top_header .top_header_info .top_head p{
+        font-size: 0px !important;
+    }
+     .top_header .top_header_info{
+        display: flex;
+        justify-content: flex-start !important;
+    }
+
+    header{
+        padding: 10px 0 0 0;
+    }
+    header .logo{
+        text-align: center !important;
+        width: 100%;
+    } 
+    header .logo img{
+        max-width: 70px !important;
+        height: 70px;
+    }
+    header .logo_title{
+        width: 100% !important;
+    }
+    header .logo_title h1{
+        font-size: 20px !important;
+    }
+    header .logo_title h3{
+        font-size: 15px !important;
+    }
+    
+    .navbar_section .logo_for_scroll{
+        margin-left: 20px !important;
+    }
+
+    .banner_section .banner_info , .banner_image{
+        width: 100%;
+        text-align: center;
+    }
+    .banner_section .banner_info .banner_title .welcom_part{
+        font-size: 30px !important;
+    }
+    .banner_section .banner_info .banner_title .site_name{
+        font-size: 40px !important;
+    }
+    .banner_section .banner_image{
+        margin-top: 20px;
+    }
+
+    .courses_section{
+        padding: 30px 10px 0 10px !important;
+    }
+    .courses_section .courses_box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .courses_section .courses_part{
+        padding: 20px  !important;
+    }
+
+    .services_section .services_box{
+        width: 100%;
+        margin-bottom: 20px;
+    }
+    .services_section .services_part{
+        padding: 50px 0 10px 0 !important;
+    }
+
+    .contact_section{
+        padding: 50px 20px !important;
+    }
+    .contact_section .contact_form{
+        width: 100%;
+        padding: 0px 10px !important;
+        margin-bottom: 30px;
+    }
+    .contact_section .contact_img{
+        width: 100%;
+        padding: 0px 0px !important;
+    }
+
+    footer .footer_info {
+        width: 100%;
+        padding: 0 30px;
+        margin-bottom: 20px;
+     }
+     footer .footer_info img{
+        height: 70px !important;
+        max-width: 70px !important;
+        margin-bottom: 20px !important;
+     }
+    footer .footer_page_links {
+        width: 100%;
+        padding: 0 30px;
+        margin-bottom: 20px;
+     }
+    footer .footer_service_links {
+        width: 100%;
+        padding: 0 30px;
+        margin-bottom: 20px;
+     }
+    footer .footer_icon {
+        width: 100%;
+        padding: 0 30px;
+     }
+     .copyright_section p{
+        font-size: 12px;
+    }
+
+}
+
+@media ( min-width:427px ) and ( max-width :769px ) {
+
+    .top_header .top_header_info .top_head p{
+        font-size: 0px !important;
+    }
+     .top_header .top_header_info{
+        display: flex;
+        justify-content: flex-start !important;
+    }
+
+    header{
+        padding: 10px 0 0 0;
+    }
+    header .logo{
+        text-align: center !important;
+        width: 20%;
+    } 
+    header .logo img{
+        max-width: 70px !important;
+        height: 70px;
+    }
+    header .logo_title{
+        width: 60% !important;    
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    header .logo_title h1{
+        font-size: 35px !important;
+    }
+    header .logo_title h3{
+        font-size: 30px !important;
+    }
+
+    .navbar_section .logo_for_scroll{
+        margin-left: 10px !important;
+    }
+    .navbar_section .logo_for_scroll img{
+        width: 70px !important;
+    }
+
+    .banner_section .banner_info , .banner_image{
+        width: 100%;
+        text-align: center;
+    }
+    .banner_section .banner_info .banner_title .welcom_part{
+        font-size: 30px !important;
+    }
+    .banner_section .banner_info .banner_title .site_name{
+        font-size: 40px !important;
+    }
+    .banner_section .banner_image{
+        margin-top: 20px;
+    }
+
+    .courses_section{
+        padding: 30px 10px 0 10px !important;
+    }
+    .courses_section .courses_box{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+    .courses_section .courses_part{
+        padding: 20px  !important;
+    }
+
+    .services_section .services_part{
+        padding: 50px 0 10px 0 !important;
+    }
+    .services_section .services_box{
+        width: 50%;
+        margin-bottom: 20px;
+    }
+
+    .contact_section{
+        padding: 50px 20px !important;
+    }
+    .contact_section .contact_form{
+        width: 100%;
+        padding: 0px 80px !important;
+        margin-bottom: 30px;
+    }
+    .contact_section .contact_img{
+        width: 100%;
+        padding: 0px 50px !important;
+    }
+
+    footer .footer_info {
+        width: 50%;
+        padding: 0 30px;
+        margin-bottom: 20px;
+     }
+     footer .footer_info img{
+        height: 70px !important;
+        max-width: 70px !important;
+        margin-bottom: 20px !important;
+     }
+    footer .footer_page_links {
+        width: 50%;
+        padding: 0 30px;
+        margin-bottom: 20px;
+     }
+    footer .footer_service_links {
+        width: 50%;
+        padding: 0 30px;
+        margin-bottom: 20px;
+     }
+    footer .footer_icon {
+        width: 50%;
+        padding: 0 30px;
+     }
+
+     .copyright_section p{
+        font-size: 12px;
+    }
+
+}
